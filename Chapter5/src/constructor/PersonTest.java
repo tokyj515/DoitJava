@@ -4,10 +4,10 @@ public class PersonTest {
    
 	 public static void main(String[] args) {
 		  Person personKim = new Person();
-		  personKim.name = "±èÀ¯½Å";
+		  personKim.name = "이순신";
 		  personKim.weight = 85.5F;
 		  personKim.height = 180.0F;
 		
-		  Person personLee = new Person("ÀÌ¼ø½Å", 175, 75);
+		  Person personLee = new Person("홍길동", 175, 75);
 	 }
 }
